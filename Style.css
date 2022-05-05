@@ -1,0 +1,144 @@
+﻿*{
+    margin:0;
+}
+p{
+    text-align:center;
+    font-weight: bold;
+}
+body {
+    font-size: 16px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 90%);
+    margin: 0;
+    display: block;
+}
+.policy{
+    text-align: center;
+    align-self:center;
+}
+
+#btn_login{
+    cursor: pointer;
+    
+}
+#lab_title_app{
+    cursor:default;
+}
+#txt_User {
+    width: 225px;
+}
+#txt_pass, #txt_email, #txt_phone_number{
+    width: 225px;
+}
+#Recovery_Pass{
+    text-decoration:none;
+}
+.table {
+    margin:auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+}
+.recover_pass_table {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 350px;
+    height: 20vh;
+}
+.nav-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #d5fefd;
+    background-image: linear-gradient(315deg, #d5fefd 25%, #fffcff 70%);
+}
+#logout{
+    height:100%;
+    width:30%;
+    cursor: pointer;
+    border:none;
+    background:none;
+    font-weight:bold;
+}
+.table-nav {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+ }
+
+.wrapper {
+    margin-top: 75px;
+    border: 1px solid black;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 800px;
+    background-color: #d5fefd;
+    background-image: linear-gradient(315deg, #d5fefd 25%, #fffcff 70%);
+}
+.tabelka_dane, .tabelka_kontrahenci {
+    width: 100%;
+    height: 35px;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+#btn_kontrahenci {
+    border: none;
+    background: none;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn_moje_dane {
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 16px;
+}
+.dane {
+    height:100%;
+    width: 50%;
+    padding-left: 25%;
+}
+.title_data, .title_kontrahenci {
+    color: yellowgreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#btn_dane_zapisac, #btn_edytuj, #btn_dodaj_kontrahenta, #btn_dodaj_kh_do_umowy {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size:16px;
+}
+#btn_dodaj_kontrahenta{
+    float:right;
+}
+
+.info_kontrahenci{
+    background-color:none;
+    width:100%;
+    height:100%;
+}
+.dane_kontrahent{
+    margin-top: 50px;
+}
